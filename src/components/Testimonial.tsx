@@ -16,8 +16,8 @@ export default function Testimonial() {
             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&h=200&fit=crop&crop=faces')" }}
           />
           <span className="testimonial__author-info">
-            <strong>Darlene Robertson</strong>
-            <em>Director of Operations · Triangle Property Group</em>
+            <strong>Betsy T.</strong>
+            <em>Director of Property Management</em>
           </span>
         </figcaption>
       </figure>

@@ -4,31 +4,11 @@ export default function Footer() {
       <div className="footer__inner">
         <div className="footer__brand">
           <a className="nav__brand" href="#">
-            <span className="brand-mark" aria-hidden="true">
-              <svg viewBox="0 0 32 32" width="32" height="32">
-                <circle cx="16" cy="16" r="16" fill="#fff" />
-                <path d="M16 7.5 L18.2 13.8 L24.5 16 L18.2 18.2 L16 24.5 L13.8 18.2 L7.5 16 L13.8 13.8 Z" fill="#1E3932" />
-              </svg>
-            </span>
-            <span className="brand-word brand-word--inverse">
-              CSM
-              <span className="brand-word__sub">Commercial Space Management</span>
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.jpg" alt="CSM logo" style={{ height: 40, width: "auto", display: "block" }} />
           </a>
-          <p className="footer__about">Locally owned and operated. Serving the Triangle since 2017 — Raleigh, Durham, Cary, Chapel Hill, Morrisville, and Greensboro.</p>
+          <p className="footer__about">Locally owned and operated. Serving the Triangle since 2017 — Raleigh, Durham, Cary, Chapel Hill, and Morrisville.</p>
           <ul className="footer__contact">
-            <li>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                <rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7 l9 7 l9 -7" />
-              </svg>
-              hello@csmcre.com
-            </li>
-            <li>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                <path d="M5 4 h4 l2 5 -3 2 a12 12 0 0 0 5 5 l2 -3 l5 2 v4 a2 2 0 0 1 -2 2 A18 18 0 0 1 3 6 a2 2 0 0 1 2 -2 Z" />
-              </svg>
-              (919) 555-0142
-            </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
                 <path d="M12 22 c -5 -3 -8 -8 -8 -13 a8 8 0 0 1 16 0 c 0 5 -3 10 -8 13 Z" /><circle cx="12" cy="9" r="3" />

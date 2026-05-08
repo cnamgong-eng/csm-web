@@ -40,7 +40,7 @@ export default function Hero() {
         </p>
 
         <div className="hero__ctas">
-          <a href="#contact" className="btn btn--primary btn--lg">Get a free quote</a>
+          <a href="mailto:csm@commercialspacemanagement.com" className="btn btn--primary btn--lg">Get a free quote</a>
           <a href="#services" className="btn btn--outline-dark btn--lg">See our services</a>
         </div>
       </div>

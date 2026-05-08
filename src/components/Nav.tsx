@@ -3,16 +3,8 @@ export default function Nav() {
     <header className="nav">
       <div className="nav__inner">
         <a className="nav__brand" href="#" aria-label="Commercial Space Management home">
-          <span className="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 32 32" width="32" height="32">
-              <circle cx="16" cy="16" r="16" fill="#006241" />
-              <path d="M16 7.5 L18.2 13.8 L24.5 16 L18.2 18.2 L16 24.5 L13.8 18.2 L7.5 16 L13.8 13.8 Z" fill="#fff" />
-            </svg>
-          </span>
-          <span className="brand-word">
-            CSM
-            <span className="brand-word__sub">Commercial Space Management</span>
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.jpg" alt="CSM logo" style={{ height: 40, width: "auto", display: "block" }} />
         </a>
 
         <nav className="nav__links" aria-label="Primary">
@@ -24,8 +16,7 @@ export default function Nav() {
         </nav>
 
         <div className="nav__cta">
-          <a href="#contact" className="btn btn--outline-dark">Client portal</a>
-          <a href="#contact" className="btn btn--primary">Get a free quote</a>
+          <a href="mailto:csm@commercialspacemanagement.com" className="btn btn--primary">Get a free quote</a>
         </div>
       </div>
     </header>

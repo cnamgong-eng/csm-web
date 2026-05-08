@@ -27,7 +27,7 @@ const industries = [
   {
     title: "Government buildings",
     copy: "Municipal, state, and federal facilities. GSA-aligned standards, secure-access training, and chain-of-custody logging.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Capitol_Building_Full_View.jpg/1280px-Capitol_Building_Full_View.jpg",
+    img: "https://images.unsplash.com/photo-1617581629397-a72507c3de9e?w=900&h=700&fit=crop",
   },
 ];
 

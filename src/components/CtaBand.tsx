@@ -10,8 +10,7 @@ export default function CtaBand() {
           <p className="cta-band__sub">A 20-minute walk-through. A line-item proposal within 48 hours. No pressure, no template pricing.</p>
         </div>
         <div className="cta-band__actions">
-          <a href="#" className="btn btn--outline-light btn--lg">Schedule a walk-through</a>
-          <a href="#" className="btn btn--gold btn--lg">Get a free quote</a>
+<a href="mailto:csm@commercialspacemanagement.com" className="btn btn--gold btn--lg">Get a free quote</a>
         </div>
       </div>
     </section>
